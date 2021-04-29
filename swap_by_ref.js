@@ -5,6 +5,7 @@ function Reference(obj) {
     obj.a =obj.a-obj.b;
     console.log(obj);
   } 
+  function ref(){
   var obj = {};
   obj.a = prompt("Enter num a: ");
   obj.a= Number(obj.a);
@@ -15,3 +16,4 @@ function Reference(obj) {
   Reference(obj) ;
   console.log("After Call by Reference Method"); 
   console.log(obj);
+  }
