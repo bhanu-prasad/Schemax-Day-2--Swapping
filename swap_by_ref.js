@@ -16,4 +16,5 @@ function Reference(obj) {
   Reference(obj) ;
   console.log("After Call by Reference Method"); 
   console.log(obj);
+  console.log("\n");
   }

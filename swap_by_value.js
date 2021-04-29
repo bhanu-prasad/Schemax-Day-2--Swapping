@@ -17,5 +17,5 @@ console.log("Before Swap value of b = "+var2);
 value(var1,var2);
 console.log("After Swap outside Function: ");
 console.log("After Swap value of a = "+var1);
-console.log("After Swap value of b = "+var2);
+console.log("After Swap value of b = "+var2+"\n");
  }
